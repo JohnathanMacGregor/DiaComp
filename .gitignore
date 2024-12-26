@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore sensitive files
+keys.py
+login.env
+
+# Ignore testing files
+test.py
+
+# Ignore production database files
+src/blood_sugar_data.db
+
+# Ignore IDE-specific files and folders
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Node.js modules folder (if used)
+node_modules/
+
+# Ignore log files or temporary/debug files
+*.log
+*.tmp
+
+# Ignore cache files or folders
+*.cache/
+.cache/
+
+# Allow the login_example.env file
+!login_example.env

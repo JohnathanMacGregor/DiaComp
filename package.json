@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@diakem/libre-link-up-api-client": "^0.7.1"
+  }
+}
